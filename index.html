@@ -5,41 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Paper Space</title>
     <link rel="shortcut icon" href="./assets/icone.png" type="image/x-icon">
-    <link rel="stylesheet" href="./style/mais.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/main.css">
 </head>
 <body>
     <header class="cabecalho">
-        <image>
-        <img src="./assets/icone.png" alt="icone de livro">     
-        </image>>
-        <ul>
-            <li class="lista__link"> <a href="#" class="lista__link_link">Tipos de papeis</a></li>
-            <li class="lista__link"> <a href="#" class="lista__link_link">Historia do papel</a></li>
-            <li class="lista__link"> <a href="#" class="lista__link_link">Sobre projeto</a></li>
-        </ul>
-    </header>
+        <div class="cabecalho__container">
+            <image>
+            <a href="index.html"><img class="cabecalho__imagem" src="./assets/icone.png" alt="icone de livro"></a>     
+            </image>
+            <ul class="cabecalho__lista">
+                <li class="lista__link"> <a href="#" class="lista__link_link">Tipos de papeis</a></li>
+                <li class="lista__link"> <a href="#" class="lista__link_link">Historia do papel</a></li>
+                <li class="lista__link"> <a href="#" class="lista__link_link">Sobre projeto</a></li>
+            </ul>
+        </div>    
+        </header>
     <main>
         <section class="banner">
-            <image>
-                 <img src="./assets/papeis.jpg" alt="Varios tipos de papeis"> 
-                </image>
+            <div ></div>
+            <h1 class="banner__titulo">Paper Space</h1>
+            <image>  
+                <img  class="banner__imagem" src="./assets/papeis.jpg" alt="Varios tipos de papeis"> 
+            </image>    
         </section>
         <section class="historia">
-            <image>
-                <img src="./assets/pergaminho.jpg" alt="pergaminho">
-            </image>
-                <p class="historia__paragrafo">No ano 105 d.C, o chinês T’sai Lun, ao realizar experimentos com uma tela de pano 
-                    esticada no bambu e aplicação de fibras maceradas, descobriu um suporte que absorvia melhor a tinta: o papel.
-                    A descoberta do papel revolucionou o império chinês e foi utilizado apenas pelos chineses, por quase 600 anos.
-                    Com a difusão do papel por outras culturas, o formato de códice (formato de livros com páginas que temos hoje)
-                    começou a ser mais utilizado, deixando para trás o volumem (formato de livro enrolado utilizado na antiguidade), 
-                    possibilitando, posteriormente, o desenvolvimento da imprensa e a maior democratização do uso do livro e ajudando a estabelecer 
-                    a forma linear de pensamento que possuímos hoje.
-                </p>
-                <a href="https://www.ufmg.br/espacodoconhecimento/historia-sobre-papel/#:~:text=No%20ano%20105%20d.C%2C%20o,
-                chineses%2C%20por%20quase%20600%20anos.">
-                leia a materia completa no site da ufmg
-               </a>
+            <div class="historia__container">
+                <image>
+                    <img class="historia__imagem" src="./assets/pergaminho.jpg" alt="pergaminho">
+                </image>
+                <div class="historia__texto">       
+                    <p class="historia__paragrafo">No ano 105 d.C, o chinês T’sai Lun, ao realizar experimentos com uma tela de pano 
+                            esticada no bambu e aplicação de fibras maceradas, descobriu um suporte que absorvia melhor a tinta: o papel.
+                            A descoberta do papel revolucionou o império chinês e foi utilizado apenas pelos chineses, por quase 600 anos.
+                    
+                    </p> 
+                    <p historia__texto>Com a difusão do papel por outras culturas, o formato de códice (formato de livros com páginas que temos hoje)
+                            começou a ser mais utilizado, deixando para trás o volumem (formato de livro enrolado utilizado na antiguidade), 
+                            possibilitando, posteriormente, o desenvolvimento da imprensa e a maior democratização do uso do livro e ajudando a estabelecer 
+                            a forma linear de pensamento que possuímos hoje.
+                    </p>
+                        <a href="https://www.ufmg.br/espacodoconhecimento/historia-sobre-papel/#:~:text=No%20ano%20105%20d.C%2C%20o,
+                        chineses%2C%20por%20quase%20600%20anos.">
+                        leia mais
+                    </a>
+                </div>    
+            </div>    
         </section>
         <section class="carrossel"></section>
         <section class="projeto">

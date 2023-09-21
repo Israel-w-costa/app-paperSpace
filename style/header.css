@@ -1,0 +1,35 @@
+.cabecalho {
+    background-color :var(--azul-primario);
+    padding:1em;
+    position: fixed;
+    width: 100%;
+    border-bottom-right-radius: 0.5em;
+    border-bottom-left-radius: 0.2em;
+}
+
+.cabecalho__container {
+    display: flex;
+    gap: 3em;
+}
+
+.cabecalho__imagem {
+    width:3vw;
+}
+
+.cabecalho__lista {
+    display: flex;
+    gap: 3.5em;
+    align-items: end;
+}
+
+.lista__link {
+    list-style-type: none;
+}
+
+.lista__link_link {
+    text-decoration: none;
+    color: var(--azul-primario);
+    background-color: var(--cor-branco);
+    border-radius: 1em;
+    padding: 0.3em;
+}

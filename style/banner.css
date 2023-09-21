@@ -1,0 +1,18 @@
+.banner{
+ text-align: center;
+}
+
+.banner div {
+    height: 50px;
+    padding: 3.5em;
+}
+
+.banner__titulo {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.banner__imagem {
+    border: 1em solid var(--azul-secundario);
+    border-radius: 2em;
+}

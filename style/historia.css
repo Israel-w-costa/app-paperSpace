@@ -1,0 +1,22 @@
+.historia {
+    margin: 12em;
+}
+
+.historia__container {
+    display: flex;
+    gap: 5em;
+}
+
+.historia__imagem {
+    border-radius: 1em;
+    border: 8px solid var(--azul-secundario);
+}
+
+.historia__texto {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    /* width:80%; */
+    white-space: none;
+}

@@ -1,0 +1,25 @@
+@import url("./header.css");
+@import url("./banner.css");
+@import url("./historia.css");
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+}
+
+:root{
+    --azul-primario :#3085C3;
+    --azul-secundario:#5CD2E6;
+    --cor-preto:#000000;
+    --cor-branco:#ffffff;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
