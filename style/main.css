@@ -1,6 +1,10 @@
 @import url("./header.css");
 @import url("./banner.css");
 @import url("./historia.css");
+@import url("./projeto.css");
+@import url("./rodape.css");
+
+
 
 
 
@@ -16,10 +20,13 @@
     --azul-secundario:#5CD2E6;
     --cor-preto:#000000;
     --cor-branco:#ffffff;
+    --branco-secundario:#FFF5E0;
+    --cor-rodape:#F0F0F0;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 400;
+    background-color: var(--branco-secundario);
 }

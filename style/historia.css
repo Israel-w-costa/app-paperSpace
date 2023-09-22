@@ -1,5 +1,5 @@
 .historia {
-    margin: 12em;
+    margin: 18em 12em 4em 12em;
 }
 
 .historia__container {
@@ -10,6 +10,12 @@
 .historia__imagem {
     border-radius: 1em;
     border: 8px solid var(--azul-secundario);
+    height: 80%;
+    align-self: center;
+}
+
+.historia__imagem:hover {
+ height:82%;
 }
 
 .historia__texto {
@@ -17,6 +23,24 @@
     display: flex;
     flex-direction: column;
     gap: 1em;
-    /* width:80%; */
     white-space: none;
+}
+
+.historia__paragrafo {
+    width: 78%;
+}
+
+.historia__link {
+    width:7em;
+    border: 2px solid var(--azul-secundario);
+    background-color: var(--cor-branco);
+    color :var(--azul-secundario);
+    border-radius: 2em;
+    text-align: center;
+    text-decoration: none;
+}
+
+.historia__link:hover {
+    background-color: var( --azul-secundario);
+    color :var(--cor-branco);
 }

@@ -1,0 +1,6 @@
+.rodape {
+    background-color: var(--cor-rodape);
+    text-align: center;
+    height: 2.5em;
+    padding: 1em;
+}
