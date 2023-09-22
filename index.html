@@ -9,6 +9,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./app/carrosel.js" defer></script>
 </head>
 <body>
     <header class="cabecalho">
@@ -30,6 +33,43 @@
             <image>  
                 <img  class="banner__imagem" src="./assets/papeis.jpg" alt="Varios tipos de papeis"> 
             </image>    
+        </section>
+        <section class="carrossel">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <img class="swiper__imagem" src="./assets/caderno.jpg" alt="caderno">
+                        <p class="carrosel__paragrafo">Caderno</p>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img class="swiper__imagem" src="./assets/jonal.jpg" alt="caderno">
+                        <p class="carrosel__paragrafo">Jonal</p>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img class="swiper__imagem" src="./assets/livro.png" alt="caderno">
+                        <p class="carrosel__paragrafo">Livro</p>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img class="swiper__imagem" src="./assets/remedio.png" alt="caderno">
+                        <p class="carrosel__paragrafo">Rémedio</p>
+                    </div>
+                    
+                    <div class="swiper-slide">
+                        <img class="swiper__imagem" src="./assets/revista.jpg" alt="caderno">
+                        <p class="carrosel__paragrafo">Revista</p>
+                    </div>
+                </div>
+
+                <div class="swiper-pagination"></div>
+            
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            
+            </div>
         </section>
         <section class="historia">
             <div class="historia__container">
@@ -57,7 +97,6 @@
                 </div>    
             </div>    
         </section>
-        <section class="carrossel"></section>
         <section class="projeto">
                 <div class="projeto__container">
                     <image>
