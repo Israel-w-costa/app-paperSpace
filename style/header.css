@@ -5,6 +5,7 @@
     width: 100%;
     border-bottom-right-radius: 0.5em;
     border-bottom-left-radius: 0.2em;
+    z-index:  1000;
 }
 
 .cabecalho__container {

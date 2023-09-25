@@ -1,7 +1,9 @@
 .swiper {
   width: 850px;
-  /* height: 800px; */
   margin-top: 15em;
+  padding: 15em;
+  z-index:  999;
+
 }
 
 .swiper__imagem {
@@ -12,14 +14,11 @@
 }
 
 .carrosel__paragrafo {
-  /* margin-bottom: 20em; */
-  padding: 6px;
   font-size: 22px;
-  /* background-color: #FFCF9D;  */
   border-radius: 6px;
   width:75%;
   margin-left: 2em;
-  margin-top: 0.5em;
+  margin-top: 1em;
   text-align: center;
-  height: 5em;
 }
+
